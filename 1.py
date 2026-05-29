@@ -1,6 +1,3 @@
-#200 - 300 List kısmından itibaren yardır.
-#NOT:!!!!!!!!! #OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO ŞEKLİNDE KOYDUĞUM YERLER TEKRAR BAKMAN GEREKEN YERLER, ANLADIKTAN SONRA SİL
-
 #Variables
 x=5
 y="Ayşe"
@@ -276,7 +273,7 @@ print(thisList)
 thisList = ["apple", "banana", "cherry"]
 thisList.clear()
 print(thisList)
-#OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+#-----------------------------------------
 del thisList
 
 thisList = ["apple", "banana", "cherry"]
@@ -298,7 +295,7 @@ while i < len(thisList):
     [x for x in "thisList"] #list comprehension
 
 """my_listtt = ['b' for x in thisList]
-print(my_listtt) """ #ahmetimin detayı burası sağ olsun 
+print(my_listtt) """ 
 
 #sort list
 thisList = ["orange", "mango", "kiwi", "pineapple", "banana"]
